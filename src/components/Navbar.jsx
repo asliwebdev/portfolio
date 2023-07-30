@@ -35,7 +35,7 @@ const Navbar = () => {
                  return <li key={url}><a href={url} onClick={() => setShowLinks(false)}>{text}</a></li>
               })}
            </ul>
-           <a href={cv} download className='cv-btn'>Download CV</a>
+           <a href={cv} download className='cv-btn' onClick={() => setShowLinks(false)}>Download CV</a>
         </div>
         </div>
       </div>
