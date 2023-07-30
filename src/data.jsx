@@ -49,7 +49,7 @@ export const socialLinks = [
     text: 'github link',
   },
   {
-    url: 'https://www.linkedin.com/in/asliddin-bozorov-59a386264',
+    url: 'www.linkedin.com/in/asliddin-bozorov',
     img:  <ImLinkedin />,
     text: 'linkedin link',
   },
@@ -116,7 +116,7 @@ export const footerSocialLinks = [
   }, 
   {
     id: 2,
-    url: 'https://www.linkedin.com/in/asliddin-bozorov-59a386264',
+    url: 'www.linkedin.com/in/asliddin-bozorov',
     icon: <AiOutlineLinkedin /> ,
   }, 
   {
