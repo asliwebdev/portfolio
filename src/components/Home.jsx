@@ -72,7 +72,7 @@ const Wrapper = styled.section`
     display: none;
   }
 }
- img.small-hero-img {
+ .small-hero-img {
     position: absolute;
     z-index: 1;
     right: 0;
