@@ -68,17 +68,17 @@ const Wrapper = styled.section`
   position: absolute;
   top: 0;
   z-index: 1;
-  img.small-hero-img {
+  p {
+    display: none;
+  }
+}
+ img.small-hero-img {
     position: absolute;
     z-index: 1;
     right: 0;
     bottom: 0,
     height: 631px;
   }
-  p {
-    display: none;
-  }
-}
 .text-container {
   clip-path: polygon(0 66%, 100% 40%, 100% 100%, 0% 100%);
   background-color: rgba(0, 0, 0, 0.56);
